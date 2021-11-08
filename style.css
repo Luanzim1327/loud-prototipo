@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color:#34d32e;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+section{
+    background-image: url("./loud-background.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+.formContainer{
+    width: 260px;
+    float: right;
+    padding: 15px;
+    background-color: #ffffffd3;
+}
+.formContainer h2{
+    color: black;
+    font-weight: bold;
+}
+.mb{
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 8px;
+    outline: none;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #34d32e;
+}
+input[type="submit"]:hover{
+    transition: 0.2s;
+    background-color: #3cf336;
+}
+
+
+.player-thurzin{
+    background-color: #202121;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.img-thurzin{
+    width: 200px;
+    border-radius: 10px;
+}
+.thurzin-description{
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 30px;
+    text-align: left;
+}
+.thurzin-description h3{
+    color: #34d32e;
+}
+.thurzin-description h3 , .thurzin-description p{
+    margin-bottom: 10px;
+}
+
+
+.player-dyn{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color:#202121 ;
+}
+.dyn-description{
+    display: inline-block;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 30px;
+}
+.dyn-description h3{
+    color: #34d32e;
+    margin-bottom: 10px;
+}
+.img-dyn{
+    width:200px;
+    height: 217px;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    background-color: rgba(29, 29, 29, 0.466);
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
